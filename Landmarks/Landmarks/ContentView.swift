@@ -13,9 +13,12 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Turtle Rock")
-                .font(.title)
-                .foregroundColor(.green)
+            VStack {
+                Text("Turtle Rock")
+                    .font(.title)
+                Text("Joshua Tree National Park")
+                .foregroundColor(.black)
+            }
         }
     }
 }
